@@ -4,26 +4,32 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇴🇲 OM 01 - xiaohe",
-      "server": "130.94.81.180",
-      "server_port": 18415,
-      "method": "aes-128-gcm",
-      "password": "b667234b8d2e7eb34444857ea3a9b18a"
+      "type": "vless",
+      "tag": "🇲🇺 MU 01 - xiaohe",
+      "server": "181.214.1.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime39.workers.dev"
+        }
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇴🇲 OM 01 - xiaohe"
+        "🇲🇺 MU 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇴🇲 OM 01 - xiaohe"
+        "🇲🇺 MU 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
