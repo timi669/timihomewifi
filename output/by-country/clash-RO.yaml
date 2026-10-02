@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 罗马尼亚 (Romania) 01 - xiaohe
-  server: 77.74.123.99
+  server: 77.74.123.101
   port: 8443
   udp: true
   type: hysteria2
@@ -13,13 +13,13 @@ proxies:
   sni: grape-test-italy.dynuddns.net
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 02 - xiaohe
-  server: 162.249.127.133
+  server: 162.249.127.142
   port: 8443
   udp: true
   type: hysteria2
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   sni: hop-germany-september.dynuddns.com
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
   server: 162.249.125.133
   port: 443
@@ -42,7 +42,7 @@ proxies:
     public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: safari
 - name: 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
   server: 146.70.124.85
   port: 443
@@ -62,7 +62,7 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: google.com
+  sni: css.rbxcdn.com
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 07 - xiaohe
   server: 154.46.31.106
