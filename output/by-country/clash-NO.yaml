@@ -5,17 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇴 挪威 (Norway) 01 - xiaohe
-  server: 45.12.63.39
-  port: 443
+  server: 185.213.23.63
+  port: 990
   udp: true
-  type: vless
-  uuid: 26f751bc-2edc-4338-9c3f-abeb32aba3b7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA
-  servername: a6sh06nn94.edgecache.click
-  client-fingerprint: firefox
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
 proxy-groups:
 - name: PROXIES
   type: select
